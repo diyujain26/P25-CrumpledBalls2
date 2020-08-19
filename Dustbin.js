@@ -7,7 +7,7 @@ class Dustbin {
         
         //this.body = Bodies.rectangle(restitution:0.2,{isStatic:true});
     }
-    this.body = Bodies.rectangle(x, y, 10, 10, options);
+    //this.body = Bodies.rectangle(x, y, 10, 10, options);
     this.width = width;
     this.height = height;
     this.image= loadImage("dustbin.png");
