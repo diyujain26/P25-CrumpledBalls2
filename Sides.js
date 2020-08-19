@@ -22,7 +22,7 @@ class Slides {
       //translate(pos.x, pos.y);
       rotate(angle);
       rectMode(CENTER);
-      fill(255);
+      fill("red);
       strokeWeight(3);
       stroke(255);
       rect(pos.x, pos.y, this.width, this.height);
