@@ -13,7 +13,7 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	ball = new Ball(100,400,40);
+	ball = new Ball(100,400,35);
 	//db1 = new Dustbin(850,620,200,10);
 
 	//db2 = new Dustbin(745,575,10,100);
