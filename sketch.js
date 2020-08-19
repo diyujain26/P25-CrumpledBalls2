@@ -5,6 +5,7 @@ const Body = Matter.Body;
 
 var ball,dustbin;
 var ground;
+var slide1,slide2,slide3;
 
 function setup() {
 	createCanvas(1000, 700);
@@ -22,6 +23,15 @@ function setup() {
 
 	ground = new Ground(400,690,800,20);
 
+	slide1 = new Slides(850,620,200,10);
+
+	slide2 = new Slides(745,575,10,100);
+	
+	slide3 = new Sliides(950,575,10,100);
+
+	ground = new Ground(400,690,800,20);
+
+
 	//Create the Bodies Here.
 
 
@@ -38,6 +48,9 @@ function draw() {
   ball.display();
   ground.display();
   dustbin.display();
+  slide1.display();
+  slide2.display();
+  slide3.display();
  
 }
 
